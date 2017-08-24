@@ -1,5 +1,5 @@
 # IP2Proxy CakePHP Plugin
-IP2Proxy library for CakePHP. Use IP2Proxy geolocation database to lookup the country, region, city, ISP and proxy type that any IP address or hostname originates from. http://www.ip2location.com Edit
+IP2Proxy library for CakePHP. Use IP2Proxy geolocation database to lookup the country, region, city, ISP and proxy type that any IP address or hostname originates from. http://www.ip2location.com
 
 ## INSTALLATION
 ### For CakePHP 2.x
@@ -20,7 +20,7 @@ IP2Proxy library for CakePHP. Use IP2Proxy geolocation database to lookup the co
     - IP2Location commercial database at http://www.ip2location.com
 3. Unzip and copy the BIN file into *plugins/IP2Proxy/data* folder. 
 4. Rename the BIN file to IP2PROXY.BIN.
-5. Add `use Cake\Core\Configure;` to line20 of *plugins/IP2Proxy/Model/IP2ProxyCode.php*.
+5. Add `use Cake\Core\Configure;` to line20 of *plugins/IP2Proxy/Model/IP2ProxyCore.php*.
 
 **Note:** The plugin has included an old BIN database for your testing and development purpose. 
 You may want to download a latest copy of BIN database as the URL stated above.
