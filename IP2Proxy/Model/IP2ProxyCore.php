@@ -58,7 +58,7 @@ class IP2ProxyCore
      */
     public function get($ip, $query = array())
     {
-        $obj = new \IP2Proxy\Database(dirname(dirname(__FILE__)) . DS . 'data' . DS . 'IP2PROXY-DB.BIN', \IP2Proxy\Database::FILE_IO);
+        $obj = new \IP2Proxy\Database(dirname(dirname(__FILE__)) . DS . 'data' . DS . 'IP2PROXY.BIN', \IP2Proxy\Database::FILE_IO);
 
         try {
             $records = $obj->lookup($ip, \IP2Proxy\Database::ALL);
