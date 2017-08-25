@@ -45,9 +45,9 @@ echo 'ISO Country Code: ' . $record['countryCode'] . '<br>';
 echo 'Country Name: ' . $record['countryName'] . '<br>';
 echo 'Region Name: ' . $record['regionName'] . '<br>';
 echo 'City Name: ' . $record['cityName'] . '<br>';
-echo 'Time Zone: ' . $record['timeZone'] . '<br>';
 echo 'ISP Name: ' . $record['isp'] . '<br>';
-echo 'Usage Type: ' . $record['usageType'] . '<br>';
+echo 'Proxy Type: ' . $record['proxyType'] . '<br>';
+echo 'Is Proxy: ' . $record['isProxy'] . '<br>';
 ```
 
 ## SUPPORT
