@@ -30,7 +30,7 @@ Please select the right package for download.
 ## USAGE
 ```
 if (Configure::version() < '3') {
-    App::uses('IP2ProxyCore', 'IP2Proxy.Model');
+    App::uses('IP2Proxy.Model', 'IP2ProxyCore');
 }
 else {
     require_once(ROOT . DS . 'plugins' . DS . 'IP2Proxy' . DS . 'Model' . DS . 'IP2ProxyCore.php');
